@@ -17,10 +17,11 @@ class RealRailwayResolver extends IdResolver {
     add(0x5d540200, Rail~CS)
     add(0x5d640000, L1Dtr~NS)
     add(0x5d740000, L2Dtr~NS)
-    add(0x5d300000, Str~NS)
+    add(0x5d500000, Str~NS)
     // diag
     add(0x5d640100, L1Dtr~SE)
     add(0x5d740100, L2Dtr~SE)
+    add(0x5d500100, Str~ES)
     // diag stub
     add(0x5d540300, Rail~CWS)
     // OxO crossing
